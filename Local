@@ -1,0 +1,3 @@
+#redis: redis-server --port 7777
+web: python -u  runserver.py
+worker: python -u run_worker.py
